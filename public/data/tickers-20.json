@@ -1,0 +1,100 @@
+{
+  "pagination": {
+    "limit": 10,
+    "offset": 30,
+    "count": 10,
+    "total": 287035
+  },
+  "data": [
+    {
+      "symbol": "MRK",
+      "name": "Merck & Co Inc",
+      "latestEndOfDayClosePrice": 104.01,
+      "latestEndOfDayOpenPrice": 103.61,
+      "percentage": 0.3860631213203414,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "NVS",
+      "name": "Novartis AG",
+      "latestEndOfDayClosePrice": 97.24,
+      "latestEndOfDayOpenPrice": 97.33,
+      "percentage": -0.09246892016850243,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast Corp - Class A",
+      "latestEndOfDayClosePrice": 43.81,
+      "latestEndOfDayOpenPrice": 43.9,
+      "percentage": -0.2050113895216317,
+      "stockExchangeAcronym": "NASDAQ",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "PFE",
+      "name": "Pfizer Inc",
+      "latestEndOfDayClosePrice": 32.11,
+      "latestEndOfDayOpenPrice": 32.94,
+      "percentage": -2.519732847601695,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PepsiCo Inc",
+      "latestEndOfDayClosePrice": 160,
+      "latestEndOfDayOpenPrice": 158.62,
+      "percentage": 0.8700037826251389,
+      "stockExchangeAcronym": "NASDAQ",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "TM",
+      "name": "Toyota Motor Corporation",
+      "latestEndOfDayClosePrice": 177.68,
+      "latestEndOfDayOpenPrice": 179.13,
+      "percentage": -0.8094679841455862,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "CVX",
+      "name": "Chevron Corp",
+      "latestEndOfDayClosePrice": 164.06,
+      "latestEndOfDayOpenPrice": 163.41,
+      "percentage": 0.39777247414479266,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "ADBE",
+      "name": "Adobe Inc",
+      "latestEndOfDayClosePrice": 548.76,
+      "latestEndOfDayOpenPrice": 560,
+      "percentage": -2.007142857142859,
+      "stockExchangeAcronym": "NASDAQ",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "CSCO",
+      "name": "Cisco Systems Inc",
+      "latestEndOfDayClosePrice": 53.77,
+      "latestEndOfDayOpenPrice": 53.88,
+      "percentage": -0.20415738678544806,
+      "stockExchangeAcronym": "NASDAQ",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo & Company",
+      "latestEndOfDayClosePrice": 40.96,
+      "latestEndOfDayOpenPrice": 40.83,
+      "percentage": 0.31839333823169863,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    }
+  ]
+}

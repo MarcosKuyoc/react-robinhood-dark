@@ -1,0 +1,100 @@
+{
+    "pagination": {
+      "limit": 10,
+      "offset": 0,
+      "count": 10,
+      "total": 287035
+    },
+    "data": [
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "latestEndOfDayClosePrice": 327.73,
+        "latestEndOfDayOpenPrice": 332.38,
+        "percentage": -1.3990011432697447,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc",
+        "latestEndOfDayClosePrice": 178.85,
+        "latestEndOfDayOpenPrice": 181.42,
+        "percentage": -1.416602359166571,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "AMZN",
+        "name": "Amazon.com Inc",
+        "latestEndOfDayClosePrice": 129.79,
+        "latestEndOfDayOpenPrice": 132.98,
+        "percentage": -2.3988569709730774,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "GOOG",
+        "name": "Alphabet Inc - Class C",
+        "latestEndOfDayClosePrice": 138.58,
+        "latestEndOfDayOpenPrice": 140.65,
+        "percentage": -1.4717383576253062,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "GOOGL",
+        "name": "Alphabet Inc - Class A",
+        "latestEndOfDayClosePrice": 137.36,
+        "latestEndOfDayOpenPrice": 139.38,
+        "percentage": -1.4492753623188275,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "BABA",
+        "name": "Alibaba Group Holding Ltd",
+        "latestEndOfDayClosePrice": 84.02,
+        "latestEndOfDayOpenPrice": 84.06,
+        "percentage": -0.04758505829170385,
+        "stockExchangeAcronym": "NYSE",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "FB",
+        "name": "Meta Platforms Inc - Class A",
+        "latestEndOfDayClosePrice": 169.49,
+        "latestEndOfDayOpenPrice": 171.32,
+        "percentage": -1.0681765117907915,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "BRK.B",
+        "name": "BERKSHIRE HATHAWAY INC",
+        "latestEndOfDayClosePrice": null,
+        "latestEndOfDayOpenPrice": null,
+        "percentage": null,
+        "stockExchangeAcronym": "NYSE",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "BRK.A",
+        "name": "BERKSHIRE HATHAWAY INC",
+        "latestEndOfDayClosePrice": null,
+        "latestEndOfDayOpenPrice": null,
+        "percentage": null,
+        "stockExchangeAcronym": "NYSE",
+        "stockExchangeCountry": "USA"
+      },
+      {
+        "symbol": "VOD",
+        "name": "Vodafone Group plc",
+        "latestEndOfDayClosePrice": 9.44,
+        "latestEndOfDayOpenPrice": 9.53,
+        "percentage": -0.9443861490031464,
+        "stockExchangeAcronym": "NASDAQ",
+        "stockExchangeCountry": "USA"
+      }
+    ]
+  }

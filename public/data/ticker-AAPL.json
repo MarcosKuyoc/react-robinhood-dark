@@ -1,0 +1,15 @@
+{
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "stockExchangeName": "NASDAQ Stock Exchange",
+    "stockExchangeAcronym": "NASDAQ",
+    "stockExchangeCountry": "USA",
+    "eod": {
+      "open": 172.02,
+      "close": 171.21,
+      "high": 173.07,
+      "low": 170.341,
+      "volume": 49152786,
+      "date": "2023-09-29T00:00:00+0000"
+    }
+}

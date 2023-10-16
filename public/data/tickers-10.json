@@ -1,0 +1,100 @@
+{
+  "pagination": {
+    "limit": 10,
+    "offset": 20,
+    "count": 10,
+    "total": 287035
+  },
+  "data": [
+    {
+      "symbol": "T",
+      "name": "AT&T Inc",
+      "latestEndOfDayClosePrice": 14.36,
+      "latestEndOfDayOpenPrice": 14.48,
+      "percentage": -0.8287292817679627,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "UNH",
+      "name": "Unitedhealth Group Inc",
+      "latestEndOfDayClosePrice": 539.4,
+      "latestEndOfDayOpenPrice": 533.25,
+      "percentage": 1.153305203938111,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank Of America Corp",
+      "latestEndOfDayClosePrice": 26.76,
+      "latestEndOfDayOpenPrice": 27.43,
+      "percentage": -2.442581115566891,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot Inc",
+      "latestEndOfDayClosePrice": 291.92,
+      "latestEndOfDayOpenPrice": 292.94,
+      "percentage": -0.3481941694544896,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel Corp",
+      "latestEndOfDayClosePrice": 35.97,
+      "latestEndOfDayOpenPrice": 36.74,
+      "percentage": -2.0958083832335417,
+      "stockExchangeAcronym": "NASDAQ",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola Company",
+      "latestEndOfDayClosePrice": 52.89,
+      "latestEndOfDayOpenPrice": 52.74,
+      "percentage": 0.28441410693970154,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "VZ",
+      "name": "Verizon Communications Inc",
+      "latestEndOfDayClosePrice": 30.67,
+      "latestEndOfDayOpenPrice": 31.08,
+      "percentage": -1.3191763191763084,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "RHHBY",
+      "name": "Roche Holding AG",
+      "latestEndOfDayClosePrice": 35.4,
+      "latestEndOfDayOpenPrice": 35.1499,
+      "percentage": 0.711524072614705,
+      "stockExchangeAcronym": "",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corp",
+      "latestEndOfDayClosePrice": 109.87,
+      "latestEndOfDayOpenPrice": 108.03,
+      "percentage": 1.7032305840970132,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    },
+    {
+      "symbol": "DIS",
+      "name": "Walt Disney Co (The)",
+      "latestEndOfDayClosePrice": 84.35,
+      "latestEndOfDayOpenPrice": 83.94,
+      "percentage": 0.48844412675720345,
+      "stockExchangeAcronym": "NYSE",
+      "stockExchangeCountry": "USA"
+    }
+  ]
+}
