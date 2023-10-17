@@ -1,5 +1,5 @@
 import { StockChart } from "./charts/stock";
-import { HeaderStock } from "./header-stock";
+import { HeaderStock } from "./HeaderStock";
 import { Stats } from "./stats";
 
 export const Main = () => {
