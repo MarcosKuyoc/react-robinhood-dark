@@ -1,100 +1,320 @@
 {
   "pagination": {
     "limit": 10,
-    "offset": 20,
+    "offset": 10,
     "count": 10,
-    "total": 287035
+    "total": 287052
   },
   "data": [
     {
-      "symbol": "T",
-      "name": "AT&T Inc",
-      "latestEndOfDayClosePrice": 14.36,
-      "latestEndOfDayOpenPrice": 14.48,
-      "percentage": -0.8287292817679627,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "V",
+      "name": "Visa Inc - Class A",
+      "eod": {
+        "open": 239,
+        "high": 240.71,
+        "low": 238.33,
+        "close": 240.07,
+        "volume": 6201527,
+        "adj_high": 240.71,
+        "adj_low": 238.33,
+        "adj_close": 240.07,
+        "adj_open": 239,
+        "adj_volume": 6201528,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "V",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.44769874476987165
     },
     {
-      "symbol": "UNH",
-      "name": "Unitedhealth Group Inc",
-      "latestEndOfDayClosePrice": 539.4,
-      "latestEndOfDayOpenPrice": 533.25,
-      "percentage": 1.153305203938111,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "JPM",
+      "name": "JPMorgan Chase & Company",
+      "eod": {
+        "open": 149.45,
+        "high": 149.52,
+        "low": 146.72,
+        "close": 147.85,
+        "volume": 10890526,
+        "adj_high": 149.52,
+        "adj_low": 146.72,
+        "adj_close": 147.85,
+        "adj_open": 149.45,
+        "adj_volume": 12268917,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "JPM",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": -1.0705921712947437
     },
     {
-      "symbol": "BAC",
-      "name": "Bank Of America Corp",
-      "latestEndOfDayClosePrice": 26.76,
-      "latestEndOfDayOpenPrice": 27.43,
-      "percentage": -2.442581115566891,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson",
+      "eod": {
+        "open": 157.82,
+        "high": 158.25,
+        "low": 156.84,
+        "close": 157.53,
+        "volume": 6400748,
+        "adj_high": 158.25,
+        "adj_low": 156.84,
+        "adj_close": 157.53,
+        "adj_open": 157.82,
+        "adj_volume": 6399303,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "JNJ",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": -0.18375364339120015
     },
     {
-      "symbol": "HD",
-      "name": "Home Depot Inc",
-      "latestEndOfDayClosePrice": 291.92,
-      "latestEndOfDayOpenPrice": 292.94,
-      "percentage": -0.3481941694544896,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "WMT",
+      "name": "Walmart Inc",
+      "eod": {
+        "open": 160.54,
+        "high": 162.08,
+        "low": 160.32,
+        "close": 161.21,
+        "volume": 4774004,
+        "adj_high": 162.08,
+        "adj_low": 160.32,
+        "adj_close": 161.21,
+        "adj_open": 160.54,
+        "adj_volume": 4774005,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "WMT",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.41734147253022047
     },
     {
-      "symbol": "INTC",
-      "name": "Intel Corp",
-      "latestEndOfDayClosePrice": 35.97,
-      "latestEndOfDayOpenPrice": 36.74,
-      "percentage": -2.0958083832335417,
-      "stockExchangeAcronym": "NASDAQ",
-      "stockExchangeCountry": "USA"
+      "symbol": "MA",
+      "name": "Mastercard Incorporated - Class A",
+      "eod": {
+        "open": 400.24,
+        "high": 404.43,
+        "low": 398.78,
+        "close": 401.16,
+        "volume": 2148579,
+        "adj_high": 404.43,
+        "adj_low": 398.78,
+        "adj_close": 401.16,
+        "adj_open": 400.24,
+        "adj_volume": 2148580,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "MA",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.22986208275035377
     },
     {
-      "symbol": "KO",
-      "name": "Coca-Cola Company",
-      "latestEndOfDayClosePrice": 52.89,
-      "latestEndOfDayOpenPrice": 52.74,
-      "percentage": 0.28441410693970154,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "PG",
+      "name": "Procter & Gamble Company",
+      "eod": {
+        "open": 145.86,
+        "high": 147.06,
+        "low": 145.46,
+        "close": 146.07,
+        "volume": 5374898,
+        "adj_high": 147.06,
+        "adj_low": 145.46,
+        "adj_close": 146.07,
+        "adj_open": 145.86,
+        "adj_volume": 6493594,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "PG",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.14397367338542405
     },
     {
-      "symbol": "VZ",
-      "name": "Verizon Communications Inc",
-      "latestEndOfDayClosePrice": 30.67,
-      "latestEndOfDayOpenPrice": 31.08,
-      "percentage": -1.3191763191763084,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing",
+      "eod": {
+        "open": 90.48,
+        "high": 91.9,
+        "low": 90.43,
+        "close": 91.22,
+        "volume": 7644844,
+        "adj_high": 91.9,
+        "adj_low": 90.43,
+        "adj_close": 91.22,
+        "adj_open": 90.48,
+        "adj_volume": 8058246,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "TSM",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.8178603006189157
     },
     {
-      "symbol": "RHHBY",
+      "symbol": "CHT",
+      "name": "Chunghwa Telecom",
+      "eod": {
+        "open": 36.12,
+        "high": 36.44,
+        "low": 35.95,
+        "close": 36.36,
+        "volume": 123779,
+        "adj_high": 36.44,
+        "adj_low": 35.95,
+        "adj_close": 36.36,
+        "adj_open": 36.12,
+        "adj_volume": 124915,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "CHT",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.6644518272425305
+    },
+    {
+      "symbol": "RHHBF",
       "name": "Roche Holding AG",
-      "latestEndOfDayClosePrice": 35.4,
-      "latestEndOfDayOpenPrice": 35.1499,
-      "percentage": 0.711524072614705,
-      "stockExchangeAcronym": "",
-      "stockExchangeCountry": "USA"
+      "eod": {
+        "open": 300,
+        "high": 300,
+        "low": 300,
+        "close": 300,
+        "volume": 85,
+        "adj_high": 300,
+        "adj_low": 300,
+        "adj_close": 300,
+        "adj_open": 300,
+        "adj_volume": 85,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "RHHBF",
+        "exchange": "OTCM",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "OTC Markets",
+        "acronym": "",
+        "mic": "OTCM",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.otcmarkets.com"
+      },
+      "percentage": 0
     },
     {
-      "symbol": "XOM",
-      "name": "Exxon Mobil Corp",
-      "latestEndOfDayClosePrice": 109.87,
-      "latestEndOfDayOpenPrice": 108.03,
-      "percentage": 1.7032305840970132,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
-    },
-    {
-      "symbol": "DIS",
-      "name": "Walt Disney Co (The)",
-      "latestEndOfDayClosePrice": 84.35,
-      "latestEndOfDayOpenPrice": 83.94,
-      "percentage": 0.48844412675720345,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "RHHVF",
+      "name": "Roche Holding AG",
+      "eod": {
+        "open": 279.84,
+        "high": 280.578,
+        "low": 275.04,
+        "close": 280.578,
+        "volume": 3348,
+        "adj_high": 280.578,
+        "adj_low": 275.04,
+        "adj_close": 280.578,
+        "adj_open": 279.84,
+        "adj_volume": 3348,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "RHHVF",
+        "exchange": "OTCM",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "OTC Markets",
+        "acronym": "",
+        "mic": "OTCM",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.otcmarkets.com"
+      },
+      "percentage": 0.263722126929674
     }
   ]
 }

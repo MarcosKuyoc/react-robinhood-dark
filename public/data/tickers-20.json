@@ -1,100 +1,320 @@
 {
   "pagination": {
     "limit": 10,
-    "offset": 30,
+    "offset": 20,
     "count": 10,
-    "total": 287035
+    "total": 287052
   },
   "data": [
     {
-      "symbol": "MRK",
-      "name": "Merck & Co Inc",
-      "latestEndOfDayClosePrice": 104.01,
-      "latestEndOfDayOpenPrice": 103.61,
-      "percentage": 0.3860631213203414,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "T",
+      "name": "AT&T Inc",
+      "eod": {
+        "open": 14.4,
+        "high": 14.5,
+        "low": 14.23,
+        "close": 14.41,
+        "volume": 31647203,
+        "adj_high": 14.5,
+        "adj_low": 14.23,
+        "adj_close": 14.41,
+        "adj_open": 14.4,
+        "adj_volume": 31559379,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "T",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.06944444444444296
     },
     {
-      "symbol": "NVS",
-      "name": "Novartis AG",
-      "latestEndOfDayClosePrice": 97.24,
-      "latestEndOfDayOpenPrice": 97.33,
-      "percentage": -0.09246892016850243,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "UNH",
+      "name": "Unitedhealth Group Inc",
+      "eod": {
+        "open": 543.18,
+        "high": 546.77,
+        "low": 536.13,
+        "close": 538.03,
+        "volume": 3781474,
+        "adj_high": 546.78,
+        "adj_low": 536.12,
+        "adj_close": 538.03,
+        "adj_open": 543.18,
+        "adj_volume": 3781474,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "UNH",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": -0.9481203284362418
     },
     {
-      "symbol": "CMCSA",
-      "name": "Comcast Corp - Class A",
-      "latestEndOfDayClosePrice": 43.81,
-      "latestEndOfDayOpenPrice": 43.9,
-      "percentage": -0.2050113895216317,
-      "stockExchangeAcronym": "NASDAQ",
-      "stockExchangeCountry": "USA"
+      "symbol": "BAC",
+      "name": "Bank Of America Corp",
+      "eod": {
+        "open": 27.16,
+        "high": 27.17,
+        "low": 26.7722,
+        "close": 26.99,
+        "volume": 55945830,
+        "adj_high": 27.18,
+        "adj_low": 26.7722,
+        "adj_close": 26.99,
+        "adj_open": 27.16,
+        "adj_volume": 55604683,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "BAC",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": -0.6259204712813023
     },
     {
-      "symbol": "PFE",
-      "name": "Pfizer Inc",
-      "latestEndOfDayClosePrice": 32.11,
-      "latestEndOfDayOpenPrice": 32.94,
-      "percentage": -2.519732847601695,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "HD",
+      "name": "Home Depot Inc",
+      "eod": {
+        "open": 294.43,
+        "high": 298.37,
+        "low": 293.5801,
+        "close": 297.33,
+        "volume": 2550737,
+        "adj_high": 298.37,
+        "adj_low": 293.5801,
+        "adj_close": 297.33,
+        "adj_open": 294.43,
+        "adj_volume": 2550738,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "HD",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.9849539788744276
     },
     {
-      "symbol": "PEP",
-      "name": "PepsiCo Inc",
-      "latestEndOfDayClosePrice": 160,
-      "latestEndOfDayOpenPrice": 158.62,
-      "percentage": 0.8700037826251389,
-      "stockExchangeAcronym": "NASDAQ",
-      "stockExchangeCountry": "USA"
+      "symbol": "INTC",
+      "name": "Intel Corp",
+      "eod": {
+        "open": 36.14,
+        "high": 36.94,
+        "low": 36.08,
+        "close": 36.56,
+        "volume": 29536688,
+        "adj_high": 36.94,
+        "adj_low": 36.08,
+        "adj_close": 36.56,
+        "adj_open": 36.14,
+        "adj_volume": 27374840,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "INTC",
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 1.1621472053126776
     },
     {
-      "symbol": "TM",
-      "name": "Toyota Motor Corporation",
-      "latestEndOfDayClosePrice": 177.68,
-      "latestEndOfDayOpenPrice": 179.13,
-      "percentage": -0.8094679841455862,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "KO",
+      "name": "Coca-Cola Company",
+      "eod": {
+        "open": 53.02,
+        "high": 53.555,
+        "low": 52.845,
+        "close": 53.43,
+        "volume": 12453718,
+        "adj_high": 53.56,
+        "adj_low": 52.84,
+        "adj_close": 53.43,
+        "adj_open": 53.02,
+        "adj_volume": 12773718,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "KO",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.7732930969445427
     },
     {
-      "symbol": "CVX",
-      "name": "Chevron Corp",
-      "latestEndOfDayClosePrice": 164.06,
-      "latestEndOfDayOpenPrice": 163.41,
-      "percentage": 0.39777247414479266,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "VZ",
+      "name": "Verizon Communications Inc",
+      "eod": {
+        "open": 30.84,
+        "high": 31.32,
+        "low": 30.62,
+        "close": 31.25,
+        "volume": 17136108,
+        "adj_high": 31.32,
+        "adj_low": 30.62,
+        "adj_close": 31.25,
+        "adj_open": 30.84,
+        "adj_volume": 21041161,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "VZ",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 1.3294422827496761
     },
     {
-      "symbol": "ADBE",
-      "name": "Adobe Inc",
-      "latestEndOfDayClosePrice": 548.76,
-      "latestEndOfDayOpenPrice": 560,
-      "percentage": -2.007142857142859,
-      "stockExchangeAcronym": "NASDAQ",
-      "stockExchangeCountry": "USA"
+      "symbol": "RHHBY",
+      "name": "Roche Holding AG",
+      "eod": {
+        "open": 34.53,
+        "high": 35.04,
+        "low": 34.45,
+        "close": 34.88,
+        "volume": 3283302,
+        "adj_high": 35.04,
+        "adj_low": 34.45,
+        "adj_close": 34.88,
+        "adj_open": 34.53,
+        "adj_volume": 3283302,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "RHHBY",
+        "exchange": "OTCM",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "OTC Markets",
+        "acronym": "",
+        "mic": "OTCM",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.otcmarkets.com"
+      },
+      "percentage": 1.0136113524471515
     },
     {
-      "symbol": "CSCO",
-      "name": "Cisco Systems Inc",
-      "latestEndOfDayClosePrice": 53.77,
-      "latestEndOfDayOpenPrice": 53.88,
-      "percentage": -0.20415738678544806,
-      "stockExchangeAcronym": "NASDAQ",
-      "stockExchangeCountry": "USA"
+      "symbol": "XOM",
+      "name": "Exxon Mobil Corp",
+      "eod": {
+        "open": 110.5,
+        "high": 110.65,
+        "low": 109.13,
+        "close": 109.95,
+        "volume": 18438501,
+        "adj_high": 110.68,
+        "adj_low": 109.13,
+        "adj_close": 109.95,
+        "adj_open": 110.5,
+        "adj_volume": 18288269,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "XOM",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": -0.4977375565610834
     },
     {
-      "symbol": "WFC",
-      "name": "Wells Fargo & Company",
-      "latestEndOfDayClosePrice": 40.96,
-      "latestEndOfDayOpenPrice": 40.83,
-      "percentage": 0.31839333823169863,
-      "stockExchangeAcronym": "NYSE",
-      "stockExchangeCountry": "USA"
+      "symbol": "DIS",
+      "name": "Walt Disney Co (The)",
+      "eod": {
+        "open": 84.31,
+        "high": 85.925,
+        "low": 84.31,
+        "close": 85.71,
+        "volume": 10266983,
+        "adj_high": 85.925,
+        "adj_low": 84.31,
+        "adj_close": 85.71,
+        "adj_open": 84.31,
+        "adj_volume": 10174314,
+        "split_factor": 1,
+        "dividend": 0,
+        "symbol": "DIS",
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 1.6605384889099648
     }
   ]
 }

@@ -1,100 +1,286 @@
 {
-    "pagination": {
-      "limit": 10,
-      "offset": 0,
-      "count": 10,
-      "total": 287035
-    },
-    "data": [
-      {
+  "pagination": {
+    "limit": 10,
+    "offset": 0,
+    "count": 10,
+    "total": 287052
+  },
+  "data": [
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "eod": {
+        "open": 331.05,
+        "high": 336.09,
+        "low": 330.6,
+        "close": 332.64,
+        "volume": 21921848,
+        "adj_high": 336.14,
+        "adj_low": 330.6,
+        "adj_close": 332.64,
+        "adj_open": 331.05,
+        "adj_volume": 22099153,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "MSFT",
-        "name": "Microsoft Corporation",
-        "latestEndOfDayClosePrice": 327.73,
-        "latestEndOfDayOpenPrice": 332.38,
-        "percentage": -1.3990011432697447,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
       },
-      {
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 0.4802899864068796
+    },
+    {
+      "symbol": "AAPL",
+      "name": "Apple Inc",
+      "eod": {
+        "open": 176.75,
+        "high": 179.075,
+        "low": 176.51,
+        "close": 178.72,
+        "volume": 52257826,
+        "adj_high": 179.075,
+        "adj_low": 176.51,
+        "adj_close": 178.72,
+        "adj_open": 176.75,
+        "adj_volume": 52170957,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "AAPL",
-        "name": "Apple Inc",
-        "latestEndOfDayClosePrice": 178.85,
-        "latestEndOfDayOpenPrice": 181.42,
-        "percentage": -1.416602359166571,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
       },
-      {
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 1.114568599717114
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc",
+      "eod": {
+        "open": 130.69,
+        "high": 133.07,
+        "low": 130.425,
+        "close": 132.55,
+        "volume": 42322757,
+        "adj_high": 133.07,
+        "adj_low": 130.425,
+        "adj_close": 132.55,
+        "adj_open": 130.69,
+        "adj_volume": 42360575,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "AMZN",
-        "name": "Amazon.com Inc",
-        "latestEndOfDayClosePrice": 129.79,
-        "latestEndOfDayOpenPrice": 132.98,
-        "percentage": -2.3988569709730774,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
       },
-      {
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 1.4232152421761524
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc - Class C",
+      "eod": {
+        "open": 139.73,
+        "high": 140.905,
+        "low": 139.32,
+        "close": 140.49,
+        "volume": 17336379,
+        "adj_high": 140.905,
+        "adj_low": 139.32,
+        "adj_close": 140.49,
+        "adj_open": 139.73,
+        "adj_volume": 17321256,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "GOOG",
-        "name": "Alphabet Inc - Class C",
-        "latestEndOfDayClosePrice": 138.58,
-        "latestEndOfDayOpenPrice": 140.65,
-        "percentage": -1.4717383576253062,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
       },
-      {
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 0.5439061046303724
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc - Class A",
+      "eod": {
+        "open": 138.17,
+        "high": 139.63,
+        "low": 137.99,
+        "close": 139.095,
+        "volume": 28493928,
+        "adj_high": 139.63,
+        "adj_low": 137.99,
+        "adj_close": 139.095,
+        "adj_open": 138.17,
+        "adj_volume": 26312421,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "GOOGL",
-        "name": "Alphabet Inc - Class A",
-        "latestEndOfDayClosePrice": 137.36,
-        "latestEndOfDayOpenPrice": 139.38,
-        "percentage": -1.4492753623188275,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
       },
-      {
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 0.6694651516248183
+    },
+    {
+      "symbol": "BABA",
+      "name": "Alibaba Group Holding Ltd",
+      "eod": {
+        "open": 83.7,
+        "high": 84.965,
+        "low": 82.63,
+        "close": 84.31,
+        "volume": 9171689,
+        "adj_high": 84.965,
+        "adj_low": 82.63,
+        "adj_close": 84.31,
+        "adj_open": 83.7,
+        "adj_volume": 9912466,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "BABA",
-        "name": "Alibaba Group Holding Ltd",
-        "latestEndOfDayClosePrice": 84.02,
-        "latestEndOfDayOpenPrice": 84.06,
-        "percentage": -0.04758505829170385,
-        "stockExchangeAcronym": "NYSE",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNYS",
+        "date": "2023-10-16T00:00:00+0000"
       },
-      {
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": 0.7287933094384701
+    },
+    {
+      "symbol": "FB",
+      "name": "Meta Platforms Inc - Class A",
+      "eod": {
+        "open": 171.32,
+        "high": 171.75,
+        "low": 168.01,
+        "close": 169.49,
+        "volume": 28991704,
+        "adj_high": null,
+        "adj_low": null,
+        "adj_close": 169.49,
+        "adj_open": null,
+        "adj_volume": null,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "FB",
-        "name": "Meta Platforms Inc - Class A",
-        "latestEndOfDayClosePrice": 169.49,
-        "latestEndOfDayOpenPrice": 171.32,
-        "percentage": -1.0681765117907915,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
+        "exchange": "XNAS",
+        "date": "2022-06-27T00:00:00+0000"
       },
-      {
-        "symbol": "BRK.B",
-        "name": "BERKSHIRE HATHAWAY INC",
-        "latestEndOfDayClosePrice": null,
-        "latestEndOfDayOpenPrice": null,
-        "percentage": null,
-        "stockExchangeAcronym": "NYSE",
-        "stockExchangeCountry": "USA"
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
       },
-      {
-        "symbol": "BRK.A",
-        "name": "BERKSHIRE HATHAWAY INC",
-        "latestEndOfDayClosePrice": null,
-        "latestEndOfDayOpenPrice": null,
-        "percentage": null,
-        "stockExchangeAcronym": "NYSE",
-        "stockExchangeCountry": "USA"
+      "percentage": -1.0681765117907915
+    },
+    {
+      "symbol": "BRK.B",
+      "name": "BERKSHIRE HATHAWAY INC",
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
       },
-      {
+      "percentage": null
+    },
+    {
+      "symbol": "BRK.A",
+      "name": "BERKSHIRE HATHAWAY INC",
+      "stock_exchange": {
+        "name": "New York Stock Exchange",
+        "acronym": "NYSE",
+        "mic": "XNYS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nyse.com"
+      },
+      "percentage": null
+    },
+    {
+      "symbol": "VOD",
+      "name": "Vodafone Group plc",
+      "eod": {
+        "open": 9.6,
+        "high": 9.63,
+        "low": 9.455,
+        "close": 9.62,
+        "volume": 3691258,
+        "adj_high": 9.63,
+        "adj_low": 9.455,
+        "adj_close": 9.62,
+        "adj_open": 9.6,
+        "adj_volume": 3691368,
+        "split_factor": 1,
+        "dividend": 0,
         "symbol": "VOD",
-        "name": "Vodafone Group plc",
-        "latestEndOfDayClosePrice": 9.44,
-        "latestEndOfDayOpenPrice": 9.53,
-        "percentage": -0.9443861490031464,
-        "stockExchangeAcronym": "NASDAQ",
-        "stockExchangeCountry": "USA"
-      }
-    ]
-  }
+        "exchange": "XNAS",
+        "date": "2023-10-16T00:00:00+0000"
+      },
+      "stock_exchange": {
+        "name": "NASDAQ Stock Exchange",
+        "acronym": "NASDAQ",
+        "mic": "XNAS",
+        "country": "USA",
+        "country_code": "US",
+        "city": "New York",
+        "website": "www.nasdaq.com"
+      },
+      "percentage": 0.2083333333333289
+    }
+  ]
+}
