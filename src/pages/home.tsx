@@ -1,5 +1,5 @@
 import { AsideMenu } from "@/components/AsideMenu"
-import { Main } from "@/components/main"
+import { Main } from "@/components/Main"
 
 export const Home: React.FC = () => {
   return (
