@@ -1,0 +1,102 @@
+{
+  "pagination": {
+      "limit": 365,
+      "offset": 0,
+      "count": 5,
+      "total": 5
+  },
+  "data": {
+      "name": "Microsoft Corporation",
+      "symbol": "MSFT",
+      "has_intraday": false,
+      "has_eod": true,
+      "country": null,
+      "eod": [
+          {
+              "open": 330.96,
+              "high": 331.1,
+              "low": 327.67,
+              "close": 328.39,
+              "volume": 20536900.0,
+              "adj_high": 331.1,
+              "adj_low": 327.67,
+              "adj_close": 328.39,
+              "adj_open": 330.96,
+              "adj_volume": 20557094.0,
+              "split_factor": 1.0,
+              "dividend": 0.0,
+              "symbol": "MSFT",
+              "exchange": "XNAS",
+              "date": "2023-10-10T00:00:00+0000"
+          },
+          {
+              "open": 331.21,
+              "high": 332.82,
+              "low": 329.14,
+              "close": 332.42,
+              "volume": 20032800.0,
+              "adj_high": 332.82,
+              "adj_low": 329.14,
+              "adj_close": 332.42,
+              "adj_open": 331.21,
+              "adj_volume": 20063246.0,
+              "split_factor": 1.0,
+              "dividend": 0.0,
+              "symbol": "MSFT",
+              "exchange": "XNAS",
+              "date": "2023-10-11T00:00:00+0000"
+          },
+          {
+              "open": 330.57,
+              "high": 333.63,
+              "low": 328.72,
+              "close": 331.16,
+              "volume": 19292800.0,
+              "adj_high": 333.6299,
+              "adj_low": 328.72,
+              "adj_close": 331.16,
+              "adj_open": 330.565,
+              "adj_volume": 19313098.0,
+              "split_factor": 1.0,
+              "dividend": 0.0,
+              "symbol": "MSFT",
+              "exchange": "XNAS",
+              "date": "2023-10-12T00:00:00+0000"
+          },
+          {
+              "open": 332.38,
+              "high": 333.83,
+              "low": 326.36,
+              "close": 327.73,
+              "volume": 21085699.0,
+              "adj_high": 333.83,
+              "adj_low": 326.36,
+              "adj_close": 327.73,
+              "adj_open": 332.38,
+              "adj_volume": 21085695.0,
+              "split_factor": 1.0,
+              "dividend": 0.0,
+              "symbol": "MSFT",
+              "exchange": "XNAS",
+              "date": "2023-10-13T00:00:00+0000"
+          },
+          {
+              "open": 331.05,
+              "high": 336.14,
+              "low": 330.6,
+              "close": 332.64,
+              "volume": 22158048.0,
+              "adj_high": 336.14,
+              "adj_low": 330.6,
+              "adj_close": 332.64,
+              "adj_open": 331.05,
+              "adj_volume": 22158048.0,
+              "split_factor": 1.0,
+              "dividend": 0.0,
+              "symbol": "MSFT",
+              "exchange": "XNAS",
+              "date": "2023-10-16T00:00:00+0000"
+          }
+      ]
+  }
+}
