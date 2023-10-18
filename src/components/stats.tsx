@@ -2,7 +2,7 @@ import { ListStats } from "@/components/ListStats";
 
 export const Stats: React.FC = () => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="flex flex-col md:flex-row pt-9">
         <div className="w-full md:w-1/2 pr-5">
           <p className="text-white pb-5">Stats</p>
@@ -16,6 +16,9 @@ export const Stats: React.FC = () => {
             tenetur culpa cupiditate nulla deleniti ea dolores dolorum nisi id
             reprehenderit vel?
           </p>
+          <div className="flex pt-4 justify-end">
+            <button className="bg-color-green rounded-lg p-2">Favoritos</button>
+          </div>
         </div>
       </div>
     </div>

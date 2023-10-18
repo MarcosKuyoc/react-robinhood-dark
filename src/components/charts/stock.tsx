@@ -2,24 +2,11 @@
 import { LineChart, Line, CartesianGrid, Tooltip, ResponsiveContainer, XAxis, YAxis, Legend } from 'recharts';
 import { OptionsChart } from '../OptionsChart';
 import { useFetchHistoricTickers } from '@/hooks/useFetchHistoric';
-
-// const data = [
-//   { name: 'Ene', value: 120 },
-//   { name: 'Feb', value: 150 },
-//   { name: 'Mar', value: 200 },
-//   { name: 'Abr', value: 180 },
-//   { name: 'May', value: 250 },
-//   { name: 'Jun', value: 210 },
-//   { name: 'Jul', value: 280 },
-//   { name: 'Ago', value: 230 },
-//   { name: 'Sep', value: 300 },
-//   { name: 'Oct', value: 270 },
-//   { name: 'Nov', value: 320 },
-//   { name: 'Dic', value: 290 },
-// ];
+import { useHistoricalStore } from '@/store/store-historical';
 
 export const StockChart: React.FC = () => {
-  const { eod } = useFetchHistoricTickers('MSFT', '2022-09-01', '2022-09-30');
+  const { dateFrom, dateTo } = useHistoricalStore();
+  const { eod } = useFetchHistoricTickers('MSFT', dateFrom, dateTo);
 
   const CustomTooltip: React.FC<{
     active?: boolean | undefined;
@@ -28,7 +15,7 @@ export const StockChart: React.FC = () => {
     if (active && payload && payload.length) {
       const data = payload[0].payload;
       return (
-        <div className="bg-secundary p-2 text-white rounded-lg">
+        <div className="bg-secondary p-2 text-white rounded-lg">
           <p>{data.name}</p>
           <p className='text-center'>{data.close}</p>
         </div>
@@ -49,9 +36,6 @@ export const StockChart: React.FC = () => {
               strokeDasharray="5"
               vertical={false}
               horizontal={false}
-              // horizontalCoordinatesGenerator={(props) => {
-              //   return [(props.yAxis.height /2) + props.yAxis.y]
-              // }}
             />
             <Tooltip content={<CustomTooltip />} />
             <Legend />
@@ -63,14 +47,6 @@ export const StockChart: React.FC = () => {
               fill="transparent"
               dot={true}
             />
-            {/* <Line
-              type="linear"
-              dataKey="open"
-              stroke="red"
-              strokeWidth={2}
-              fill="transparent"
-              dot={false}
-            /> */}
           </LineChart>
         </ResponsiveContainer>
       </div>

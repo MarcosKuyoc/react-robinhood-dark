@@ -1,34 +1,48 @@
+import { getPastDate } from "@/helpers";
+import { useHistoricalStore } from "@/store/store-historical";
+
 export const OptionsChart = () => {
+  const { selected, setDates, setSelected } = useHistoricalStore();
+    const options = [
+      {name: '1 Week', responsiveName: '1W'},
+      {name: '1 Month', responsiveName: '1M'},
+      {name: '6 Months', responsiveName: '6M'}
+    ];
+  
+    const changeDates = (option: string) => {
+      if (option === '1W') {
+        const {dateFrom , dateTo} = getPastDate(7);
+        setDates(dateFrom, dateTo);
+        setSelected(option);
+      }
+
+      if (option === '1M') {
+        const {dateFrom , dateTo} = getPastDate(30);
+        setDates(dateFrom, dateTo);
+        setSelected(option);
+      }
+
+      if (option === '6M') {
+        const {dateFrom , dateTo} = getPastDate(180);
+        setDates(dateFrom, dateTo);
+        setSelected(option);
+      }
+
+      return;
+    }
+
   return (
-    <div className="flex flex-wrap border-b-2 border-slate-800 pb-1">
-      {/* <div className="text-white uppercase pr-5">
-        <span className="border-b-2 border-green-500 pb-1">
-          <span className="hidden sm:inline">1 Day</span>
-          <span className="sm:hidden">1D</span>
-        </span>
-      </div> */}
-      <div className="text-color-green uppercase pr-5">
-        <span className="hidden sm:inline">1 Week</span>
-        <span className="sm:hidden">1W</span>
-      </div>
-      <div className="text-white uppercase pr-5">
-        <span className="border-b-2 border-green-500 pb-1">
-          <span className="hidden sm:inline">1 Month</span>
-          <span className="sm:hidden">1M</span>
-        </span>
-      </div>
-      <div className="text-color-green uppercase pr-5">
-        <span className="hidden sm:inline">6 Months</span>
-        <span className="sm:hidden">6M</span>
-      </div>
-      <div className="text-color-green uppercase pr-5">
-        <span className="hidden sm:inline">1 Year</span>
-        <span className="sm:hidden">1Y</span>
-      </div>
-      <div className="text-color-green uppercase pr-5">
-        <span className="hidden sm:inline">5 Years</span>
-        <span className="sm:hidden">5Y</span>
-      </div>
+    <div className="flex flex-wrap border-b-2 border-slate-800 pb-1 text-color-green">
+      {
+        options.map((option) => (
+          <div key={option.name} className="uppercase pr-5" onClick={() => changeDates(option.responsiveName)}>
+            <div className={`border-green-500 pb-1 cursor-pointer hover:border-b-2 hover:text-white ${(selected === option.responsiveName) ? 'border-b-2 text-white': ''}`}>
+              <span className="hidden sm:inline">{option.name}</span>
+              <span className="sm:hidden">{option.responsiveName}</span>
+            </div>
+          </div>    
+        ))
+      }
     </div>
   );
 };
