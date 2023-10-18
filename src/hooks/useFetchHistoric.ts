@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { fetchHistoricTickers } from '@/services/historic-tickers';
 import { useQuery } from '@tanstack/react-query';
 
@@ -11,15 +10,15 @@ interface Page {
   eod: Historic[];
 }
 
-export const useFetchHistoricTickers = (symbol: string, startDate: string, endDate: string) => {
+export const useFetchHistoricTickers = (symbol: string, dateFront: string, dateTo: string) => {
   const {
     isLoading,
     isError,
     data,
     refetch,
   } = useQuery<Page>({
-    queryKey: ['historic', symbol, startDate, endDate],
-    queryFn: () => fetchHistoricTickers(symbol, startDate, endDate),
+    queryKey: ['historic', symbol, dateFront, dateTo],
+    queryFn: () => fetchHistoricTickers(symbol, dateFront, dateTo),
     keepPreviousData: true
   });
   return {
